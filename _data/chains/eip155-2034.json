@@ -10,7 +10,7 @@ export const data = {
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }], {"name": ERC20}],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }], {"name": "ERC20"},
 
   "infoURL": "https://ethereum.org",
   "shortName": "eth",
@@ -23,4 +23,3 @@ export const data = {
     "icon": "etherscan",
     "standard": "EIP3091"
   }]
-}
