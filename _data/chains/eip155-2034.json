@@ -1,25 +1,27 @@
-export const data = {
-  "name": "FST Smart Chain",
-  "chain": "FST",
-  "network": "mainnet",
+lexport const data = {
+{
+  "name": "Ethereum Mainnet",
+  "chain": "ETH",
   "rpc": [
-    "https://mainnet.fenixst.io"
+    "https://mainnet.infura.io/v3/bab505bca549476dbd8fa648b782625a",
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "FST",
-    "symbol": "FST",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "",
-  "shortName": "fst",
-  "chainId": 2034,
-  "networkId": 2034,
-  "explorers": [
-    {
-      "name": "FSTScan",
-      "url": "https://fstscan.fenixst.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }], {"name": ERC20}],
+
+  "infoURL": "https://ethereum.org",
+  "shortName": "eth",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "etherscan", 
+    "url": "https://etherscan.io",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
 }
